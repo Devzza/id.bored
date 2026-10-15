@@ -1,0 +1,17 @@
+# Dependencias / build
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# Env: nunca subas secretos
+.env*.local
+.env
+
+# Logs / editor
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
